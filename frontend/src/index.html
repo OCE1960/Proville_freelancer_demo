@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Proville BSL Freelancing Jobs </title>
+  <base href="/">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	title:{
+		text: "Statis Analysis"
+	},
+	axisY: {
+	},
+	data: [{        
+		type: "column",  
+		showInLegend: true, 
+		legendMarkerColor: "grey",
+		dataPoints: [      
+			{ y: 15, label: "Applied Jobs" },
+			{ y: 20,  label: "Posted Jobs" },
+			{ y: 10,  label: "Active Bids" },
+			{ y: 20,  label: "Favourite Jobs" },
+		
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+
+
+
+</head>
+<body>
+  <app-root></app-root>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.nav-wrapper, .side-nav, .dropdown-content, #dropdown1, #dropdown2 {
+    background-color:rgb(18, 19, 18);
+    
+}
+
+.mobile a, .dropdown-content a {
+    color: rgb(240, 230, 230) !important;
+    background-color:rgb(18, 19, 18) !important;
+
+}
+
+.active, a:hover, ul #mobile-demo li a:hover, ul .side-nav.mobile a:hover {
+    background-color:rgb(206, 199, 199) !important; 
+    color:black !important; 
+}
+
+@media screen and (min-width: 600px) {
+nav img {
+    background-color:rgb(240, 245, 240) !important;
+    padding: 10px;
+    margin-top: 5px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    nav img {
+        background-color:rgb(240, 245, 240) !important;
+        padding: 10px;
+    }
+    }
+
+    .mobile a:hover, .dropdown-content a:hover {
+        background-color:rgb(206, 199, 199) !important; 
+        color:black !important;
+    
+    }

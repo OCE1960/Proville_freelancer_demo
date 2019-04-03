@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(251, 252, 253);
+}
+
+.ng-invalid:not(form) {
+    border-left: 5px solid red;
+}
+
+.ng-valid:not(form) {
+    border-left: 5px solid green;
+}
+
+.alert {
+    background-color: rgb(245, 214, 214) !important;
+    padding: 10px;
+    color:red;
+}
+
+#works .card {
+    border-top: 5px solid rgb(67, 193, 243);
+
+}
+
+#candidates {
+    background-color: rgb(235, 233, 233) !important;
+}
+
+#candidates .amount {
+    float:  right !important;
+}
+
+#candidates .candidates {
+    background-color: azure !important;
+}
+
+#candidates .card-content {
+    margin-top: -25px !important;
+}
+
+.works {
+    text-align: center;
+}
+
+.rate {
+    text-align: right;
+}
+
+.social1{
+    margin-top: 15px;
+}
+
+.jobs {
+    border-bottom: 1px solid red;
+
+}
+
+
+
